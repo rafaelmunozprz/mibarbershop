@@ -58,7 +58,7 @@ class Config
         $this->CONNECTION = $connect;
     }
 
-    public function ROUTE(){
+    function ROUTE(){
         $route = $_SERVER['HTTP_HOST'];
         return 'http://'.$route.'/'.$this->get_Route();
     }
