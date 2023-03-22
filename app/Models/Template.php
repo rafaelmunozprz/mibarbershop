@@ -86,7 +86,8 @@ class Templates
             <link rel="stylesheet" href="'.$this->ROUTE.'Library/plugin_public/css/themify-icons.css">
             <link rel="stylesheet" href="'.$this->ROUTE.'Library/plugin_public/css/slick.css">
             <link rel="stylesheet" href="'.$this->ROUTE.'Library/plugin_public/css/nice-select.css">
-            <link rel="stylesheet" href="'.$this->ROUTE.'Library/plugin_public/css/style.css">';
+            <link rel="stylesheet" href="'.$this->ROUTE.'Library/plugin_public/css/style.css">'.
+            '<script src="https://kit.fontawesome.com/900e64e177.js" crossorigin="anonymous"></script>';
 
         $headerBody .= '</head>';
 

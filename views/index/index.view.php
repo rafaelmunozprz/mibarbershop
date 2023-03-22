@@ -163,33 +163,37 @@ $TEMPLATE->header();
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="services-caption text-center mb-30">
                             <div class="service-icon">
-                                <i class="fa-solid fa-graduation-cap"></i>
+                                <i class="fas fa-graduation-cap"></i>
                             </div>
                             <div class="service-cap">
                                 <h4><a href="#">Cursos</a></h4>
-                                <p>Encuentra cursos con las mejores tendencias de corte</p>
+                                <p>
+                                Aprende las últimas tendencias de cabello con nuestros cursos de estilo. ¡Inscríbete ahora!
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="services-caption active text-center mb-30">
                             <div class="service-icon">
-                                <i class="flaticon-fitness"></i>
+                                <i class="fas fa-rss"></i>
                             </div>
                             <div class="service-cap">
-                                <h4><a href="#">Body Massege</a></h4>
-                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                                <h4><a href="#">Blog</a></h4>
+                                <p>
+                                ¡Descubre técnicas de corte, estilo y cuidado de barba y cabello en nuestro nuevo blog!
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="services-caption text-center mb-30">
                             <div class="service-icon">
-                                <i class="flaticon-clock"></i>
+                                <i class="fa-solid fa-people-group"></i>
                             </div>
                             <div class="service-cap">
-                                <h4><a href="#">Breard Style</a></h4>
-                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                                <h4><a href="#">Comunidad</a></h4>
+                                <p>¡Únete a nuestra comunidad de barberos y comparte tus técnicas y consejos de corte!</p>
                             </div>
                         </div>
                     </div>
@@ -204,8 +208,8 @@ $TEMPLATE->header();
                 <div class="row justify-content-center">
                     <div class="col-xl-8 col-lg-8 col-md-11 col-sm-11">
                         <div class="section-tittle text-center mb-100">
-                            <span>Professional Teams</span>
-                            <h2>Our award winner hair cut exparts for you</h2>
+                            <span>Equipo profesional</span>
+                            <h2>Maestros barberos con años de experiencia</h2>
                         </div>
                     </div>
                 </div>
@@ -260,7 +264,7 @@ $TEMPLATE->header();
         </div>
         <!-- Team End -->
         <!-- Best Pricing Area Start -->
-        <div class="best-pricing section-padding2 position-relative">
+        <!-- <div class="best-pricing section-padding2 position-relative">
             <div class="container">
                 <div class="row justify-content-end">
                     <div class="col-xl-7 col-lg-7">
@@ -268,7 +272,6 @@ $TEMPLATE->header();
                             <span>Our Best Pricing</span>
                             <h2>We provide best price<br> in the city!</h2>
                         </div>
-                        <!-- Pricing  -->
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-6">
                                 <div class="pricing-list">
@@ -299,17 +302,13 @@ $TEMPLATE->header();
                     </div>
                 </div>
             </div>
-            <!-- pricing img -->
             <div class="pricing-img">
                 <img class="pricing-img1" src="<?php echo $ROUTE ?>Library/plugin_public/img/gallery/pricing1.png" alt="">
                 <img class="pricing-img2" src="<?php echo $ROUTE ?>Library/plugin_public/img/gallery/pricing2.png" alt="">
             </div>
-        </div>
-        <!-- Best Pricing Area End -->
-        <!--? Gallery Area Start -->
+        </div> -->
         <div class="gallery-area section-padding30">
             <div class="container">
-                <!-- Section Tittle -->
                 <div class="row justify-content-center">
                     <div class="col-xl-6 col-lg-7 col-md-9 col-sm-10">
                         <div class="section-tittle text-center mb-100">
