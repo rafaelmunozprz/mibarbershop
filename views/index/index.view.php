@@ -39,17 +39,12 @@ $TEMPLATE->header();
                                     <nav>
                                         <ul id="navigation">
                                             <li class="active"><a href="index.html">MiBarberShop</a></li>
-                                            <li><a href="about.html">Acerca de...</a></li>
-                                            <li><a href="services.html">Servicios</a></li>
-                                            <li><a href="portfolio.html">Portafolio</a></li>
-                                            <li><a href="blog.html">Blog</a>
-                                                <ul class="submenu">
-                                                    <li><a href="blog.html">Blog</a></li>
-                                                    <li><a href="blog_details.html">Blog detalles</a></li>
-                                                    <li><a href="elements.html">Elementos</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="contact.html">Contacto</a></li>
+                                            <li><a href="<?php echo $ROUTE ?>store">Tienda</a></li>
+                                            <li><a href="<?php echo $ROUTE ?>about">Acerca de...</a></li>
+                                            <li><a href="<?php echo $ROUTE ?>services">Servicios</a></li>
+                                            <li><a href="<?php echo $ROUTE ?>portfolio">Portafolio</a></li>
+                                            <li><a href="<?php echo $ROUTE ?>blogs">Blog</a> </li>
+                                            <li><a href="<?php echo $ROUTE?>contact">Contacto</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -486,12 +481,12 @@ $TEMPLATE->header();
                                 <div class="footer-tittle">
                                     <h4>Explorar</h4>
                                     <ul>
-                                        <li><a href="#">Tienda</a></li>
-                                        <li><a href="#">Acerca De...</a></li>
-                                        <li><a href="#">Servicios</a></li>
-                                        <li><a href="#">Portafolio</a></li>
-                                        <li><a href="#">Blog</a></li>
-                                        <li><a href="#">Contacto</a></li>
+                                        <li><a href="<?php echo $ROUTE?>store">Tienda</a></li>
+                                        <li><a href="<?php echo $ROUTE?>about">Acerca De...</a></li>
+                                        <li><a href="<?php echo $ROUTE?>services">Servicios</a></li>
+                                        <li><a href="<?php echo $ROUTE?>portfolio">Portafolio</a></li>
+                                        <li><a href="<?php echo $ROUTE?>blogs">Blog</a></li>
+                                        <li><a href="<?php echo $ROUTE?>contact">Contacto</a></li>
                                     </ul>
                                 </div>
                             </div>
