@@ -168,7 +168,7 @@ $TEMPLATE->header();
                             <div class="service-cap">
                                 <h4><a href="#">Cursos</a></h4>
                                 <p>
-                                Aprende las últimas tendencias de cabello con nuestros cursos de estilo. ¡Inscríbete ahora!
+                                    Aprende las últimas tendencias de cabello con nuestros cursos de estilo. ¡Inscríbete ahora!
                                 </p>
                             </div>
                         </div>
@@ -181,7 +181,7 @@ $TEMPLATE->header();
                             <div class="service-cap">
                                 <h4><a href="#">Blog</a></h4>
                                 <p>
-                                ¡Descubre técnicas de corte, estilo y cuidado de barba y cabello en nuestro nuevo blog!
+                                    ¡Descubre técnicas de corte, estilo y cuidado de barba y cabello en nuestro nuevo blog!
                                 </p>
                             </div>
                         </div>
@@ -264,37 +264,32 @@ $TEMPLATE->header();
         </div>
         <!-- Team End -->
         <!-- Best Pricing Area Start -->
-        <!-- <div class="best-pricing section-padding2 position-relative">
+        <div class="best-pricing section-padding2 position-relative">
             <div class="container">
                 <div class="row justify-content-end">
                     <div class="col-xl-7 col-lg-7">
                         <div class="section-tittle mb-50">
-                            <span>Our Best Pricing</span>
-                            <h2>We provide best price<br> in the city!</h2>
+                            <span>Nuestros mejores precios</span>
+                            <h2>Servicio de administración<br> ¡GRATIS!</h2>
                         </div>
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-6">
                                 <div class="pricing-list">
                                     <ul>
-                                        <li>Styling. . . . . . . . . . . . . . . . . . . . . . . . . . . . <span>$25</span></li>
-                                        <li>Styling + Color. . . . . . . . . . . . . . . . . . . <span>$65</span></li>
-                                        <li>Styling + Tint. . . . . . . . . . . . . . . . . . . . . .<span>$65</span></li>
-                                        <li> Semi-permanent wave. . . . . . . . . . . . .<span>$65</span></li>
-                                        <li> Cut + Styling. . . . . . . . . . . . . . . . . . . . . .<span>$63</span></li>
-                                        <li> Cut + Styling + Color. . . . . . . . . . . . . <span>$100</span></li>
-                                        <li> Cut + Styling + Tint. . . . . . . . . . . . . . . .<span>$100</span></li>
+                                        <li>Punto de venta . . . . . . . . . . . . . . . . . <span>$0.00</span></li>
+                                        <li>Cobro de servicios . . . . . . . . . . . . . <span>$0.00</span></li>
+                                        <li>Venta de artículos . . . . . . . . . . . . . <span>$0.00</span></li>
+                                        <li>Registro de citas . . . . . . . . . . . . . . <span>$0.00</span></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6">
                                 <div class="pricing-list">
                                     <ul>
-                                        <li>Cut. . . . . . . . . . . . . . . . . . . . . . . . . . . . .<span>$25</span></li>
-                                        <li>Shave. . . . . . . . . . . . . . . . . . . . . . . . . . <span>$65</span></li>
-                                        <li>Beard trim. . . . . . . . . . . . . . . . . . . . . . <span>$65</span></li>
-                                        <li>Cut + beard trim. . . . . . . . . . . . . . . . . <span>$65</span></li>
-                                        <li>Cut + shave. . . . . . . . . . . . . . . . . . . . . . .<span>$63</span></li>
-                                        <li>Clean up. . . . . . . . . . . . . . . . . . . . . . . . .<span>$100</span></li>
+                                        <li>Registro de tu negocio. . . . . . . . . . . . <span>$0.00</span></li>
+                                        <li>Alta de clientes . . . . . . . . . . . . . . . . . . <span>$0.00</span></li>
+                                        <li>Alta de provedores . . . . . . . . . . . . . . . <span>$0.00</span></li>
+                                        <li>Alta de trabajadores . . . . . . . . . . . . . <span>$0.00</span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -306,39 +301,39 @@ $TEMPLATE->header();
                 <img class="pricing-img1" src="<?php echo $ROUTE ?>Library/plugin_public/img/gallery/pricing1.png" alt="">
                 <img class="pricing-img2" src="<?php echo $ROUTE ?>Library/plugin_public/img/gallery/pricing2.png" alt="">
             </div>
-        </div> -->
+        </div>
         <div class="gallery-area section-padding30">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-6 col-lg-7 col-md-9 col-sm-10">
                         <div class="section-tittle text-center mb-100">
-                            <span>our image gellary</span>
-                            <h2>some images from our barber shop</h2>
+                            <span>Galería</span>
+                            <h2>Algunas imágenes del desarrollo y forma de trabajo</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="box snake mb-30">
-                            <div class="gallery-img " style="background-image: url(assets/img/gallery/gallery1.png);"></div>
+                            <div class="gallery-img " style="background-image: url(<?php echo $ROUTE ?>Library/plugin_public/img/gallery/gallery1.png);"></div>
                             <div class="overlay"></div>
                         </div>
                     </div>
                     <div class="col-lg-8 col-md-6 col-sm-6">
                         <div class="box snake mb-30">
-                            <div class="gallery-img " style="background-image: url(assets/img/gallery/gallery2.png);"></div>
+                            <div class="gallery-img " style="background-image: url(<?php echo $ROUTE ?>Library/plugin_public/img/gallery/gallery2.png);"></div>
                             <div class="overlay"></div>
                         </div>
                     </div>
                     <div class="col-lg-8 col-md-6 col-sm-6">
                         <div class="box snake mb-30">
-                            <div class="gallery-img " style="background-image: url(assets/img/gallery/gallery3.png);"></div>
+                            <div class="gallery-img " style="background-image: url(<?php echo $ROUTE ?>Library/plugin_public/img/gallery/gallery3.png);"></div>
                             <div class="overlay"></div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="box snake mb-30">
-                            <div class="gallery-img " style="background-image: url(assets/img/gallery/gallery4.png);"></div>
+                            <div class="gallery-img " style="background-image: url(<?php echo $ROUTE ?>Library/plugin_public/img/gallery/gallery4.png);"></div>
                             <div class="overlay"></div>
                         </div>
                     </div>
@@ -347,7 +342,7 @@ $TEMPLATE->header();
         </div>
         <!-- Gallery Area End -->
         <!-- Cut Details Start -->
-        <div class="cut-details section-bg section-padding2" data-background="assets/img/gallery/section_bg02.png">
+        <div class="cut-details section-bg section-padding2" data-background="<?php echo $ROUTE ?>Library/plugin_public/img/gallery/section_bg02.png">
             <div class="container">
                 <div class="cut-active dot-style">
                     <div class="single-cut">
@@ -357,8 +352,10 @@ $TEMPLATE->header();
                             </svg>
                         </div>
                         <div class="cut-descriptions">
-                            <p>Vestibulum varius, velit sit amet tempor efficitur, ligula mi lacinia libero, vehicula dui nisi eget purus. Integer cursus nibh non risus maximus dictum. Suspendis.</p>
-                            <span>JONT NICOLIN KOOK</span>
+                            <p>
+                                El nuevo sitio web "mibarbershop.com.mx" de manejo de barberías es impresionante. Destaca por su diseño moderno y fácil navegación, lo que hace que encontrar información relevante sobre las barberías sea muy sencillo. Además, la plataforma es muy intuitiva y permite hacer reservas de citas en línea de manera rápida y sencilla. Sin duda, es una gran herramienta para cualquier persona que busque un servicio de barbería de alta calidad.
+                            </p>
+                            <span>Rafael Muñoz Pérez</span>
                         </div>
                     </div>
                     <div class="single-cut">
@@ -368,8 +365,10 @@ $TEMPLATE->header();
                             </svg>
                         </div>
                         <div class="cut-descriptions">
-                            <p>Vestibulum varius, velit sit amet tempor efficitur, ligula mi lacinia libero, vehicula dui nisi eget purus. Integer cursus nibh non risus maximus dictum. Suspendis.</p>
-                            <span>JONT NICOLIN KOOK</span>
+                            <p>
+                                El nuevo sitio web de manejo de barberías es una verdadera revolución en el mundo de la barbería. La plataforma no solo es fácil de usar y atractiva, sino que también ofrece una amplia gama de opciones para satisfacer las necesidades de cada cliente. Desde la reserva de citas en línea hasta la información detallada sobre cada una de las barberías, este sitio web es una herramienta invaluable para cualquier persona que busque un servicio de barbería de alta calidad. Sin duda, el sitio web es un gran paso adelante para la industria de la barbería y estamos emocionados de ver cómo se desarrollará en el futuro.
+                            </p>
+                            <span>Profesor Barbero Miguel</span>
                         </div>
                     </div>
                     <div class="single-cut">
@@ -379,7 +378,9 @@ $TEMPLATE->header();
                             </svg>
                         </div>
                         <div class="cut-descriptions">
-                            <p>Vestibulum varius, velit sit amet tempor efficitur, ligula mi lacinia libero, vehicula dui nisi eget purus. Integer cursus nibh non risus maximus dictum. Suspendis.</p>
+                            <p>
+                                El nuevo sitio web de manejo de barberías es una herramienta impresionante para quienes buscan servicios de barbería de alta calidad. Lo mejor de todo es que el uso de la plataforma es completamente gratuito.
+                            </p>
                             <span>JONT NICOLIN KOOK</span>
                         </div>
                     </div>
@@ -394,8 +395,8 @@ $TEMPLATE->header();
                 <div class="row justify-content-center">
                     <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
                         <div class="section-tittle text-center mb-90">
-                            <span>our recent news</span>
-                            <h2>Hipos and tricks from recent blog</h2>
+                            <span>Nuestros nuevos temas</span>
+                            <h2>Lo mas comentado en nuestros Blog</h2>
                         </div>
                     </div>
                 </div>
@@ -412,9 +413,9 @@ $TEMPLATE->header();
                                     </div>
                                 </div>
                                 <div class="blog-cap">
-                                    <p>| Physics</p>
-                                    <h3><a href="blog_details.html">Footprints in Time is perfect House in Kurashiki</a></h3>
-                                    <a href="blog_details.html" class="more-btn">became a member »</a>
+                                    <p>| Técnica</p>
+                                    <h3><a href="blog_details.html">Crea un Low Fade únicamente con tu Clipper</a></h3>
+                                    <a href="blog_details.html" class="more-btn">Únete y comenta »</a>
                                 </div>
                             </div>
                         </div>
@@ -431,9 +432,9 @@ $TEMPLATE->header();
                                     </div>
                                 </div>
                                 <div class="blog-cap">
-                                    <p>| Physics</p>
-                                    <h3><a href="blog_details.html">Footprints in Time is perfect House in Kurashiki</a></h3>
-                                    <a href="blog_details.html" class="more-btn">became a member »</a>
+                                    <p>| Productos</p>
+                                    <h3><a href="blog_details.html">La mejor trimmer del momento, lo bueno y lo malo</a></h3>
+                                    <a href="blog_details.html" class="more-btn">Únete y comenta »</a>
                                 </div>
                             </div>
                         </div>
@@ -445,7 +446,7 @@ $TEMPLATE->header();
     </main>
     <footer>
         <!--? Footer Start-->
-        <div class="footer-area section-bg" data-background="assets/img/gallery/footer_bg.png">
+        <div class="footer-area section-bg" data-background="<?php echo $ROUTE ?>Library/plugin_public/img/gallery/footer_bg.png">
             <div class="container">
                 <div class="footer-top footer-padding">
                     <div class="row d-flex justify-content-between">
@@ -457,12 +458,12 @@ $TEMPLATE->header();
                                 </div>
                                 <div class="footer-tittle">
                                     <div class="footer-pera">
-                                        <p class="info1">Receive updates and latest news direct from Simply enter.</p>
+                                        <p class="info1">Recibe actualizaciones y las últimas noticias con un simple Click</p>
                                     </div>
                                 </div>
                                 <div class="footer-number">
-                                    <h4><span>+564 </span>7885 3222</h4>
-                                    <p>youremail@gmail.com</p>
+                                    <h4><span>+52 </span>378 1198577</h4>
+                                    <p>contacto@mibarbershop.com.mx</p>
                                 </div>
                             </div>
                         </div>
@@ -483,13 +484,14 @@ $TEMPLATE->header();
                         <div class="col-xl-2 col-lg-2 col-md-3 col-sm-5">
                             <div class="single-footer-caption mb-50">
                                 <div class="footer-tittle">
-                                    <h4>Explore</h4>
+                                    <h4>Explorar</h4>
                                     <ul>
-                                        <li><a href="#">Cookies</a></li>
-                                        <li><a href="#">About</a></li>
-                                        <li><a href="#">Privacy Policy</a></li>
-                                        <li><a href="#">Proparties</a></li>
-                                        <li><a href="#">Licenses</a></li>
+                                        <li><a href="#">Tienda</a></li>
+                                        <li><a href="#">Acerca De...</a></li>
+                                        <li><a href="#">Servicios</a></li>
+                                        <li><a href="#">Portafolio</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Contacto</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -497,18 +499,18 @@ $TEMPLATE->header();
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
                             <div class="single-footer-caption mb-50">
                                 <div class="footer-tittle">
-                                    <h4>Location</h4>
+                                    <h4>NewsLetter</h4>
                                     <div class="footer-pera">
-                                        <p class="info1">Subscribe now to get daily updates</p>
+                                        <p class="info1">Subscríbete y obten las últimas actualizaciones</p>
                                     </div>
                                 </div>
                                 <!-- Form -->
                                 <div class="footer-form">
                                     <div id="mc_embed_signup">
                                         <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative mail_part" novalidate="true">
-                                            <input type="email" name="EMAIL" id="newsletter-form-email" placeholder=" Email Address " class="placeholder hide-on-focus" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your email address'">
+                                            <input type="email" name="EMAIL" id="newsletter-form-email" placeholder=" Correo electrónico " class="placeholder hide-on-focus" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your email address'">
                                             <div class="form-icon">
-                                                <button type="submit" name="submit" id="newsletter-submit" class="email_icon newsletter-submit button-contactForm">Send</button>
+                                                <button type="submit" name="submit" id="newsletter-submit" class="email_icon newsletter-submit button-contactForm">Enviar</button>
                                             </div>
                                             <div class="mt-10 info"></div>
                                         </form>
@@ -525,8 +527,7 @@ $TEMPLATE->header();
                                 <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                                     Copyright &copy;<script>
                                         document.write(new Date().getFullYear());
-                                    </script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                                    </script> Todos los derechos reservados</p>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4">
