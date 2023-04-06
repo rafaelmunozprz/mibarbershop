@@ -43,11 +43,14 @@ if (!$DIR) {
 }
 
 /**
- * Landing Page Controller
+ * Contact
  */
+else if($DIR[0] == 'contact'){
+    require_once "../routes/contact/contact.route.php";
+}
 
 /**
- * Store controller
+ * Landing Page Controller
  */
 
 /**

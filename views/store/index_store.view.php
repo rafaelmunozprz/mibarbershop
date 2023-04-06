@@ -1,3 +1,3 @@
 <body>
-    Error
+    Store
 </body>
