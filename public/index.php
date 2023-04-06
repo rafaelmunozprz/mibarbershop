@@ -45,8 +45,50 @@ if (!$DIR) {
 /**
  * Contact
  */
-else if($DIR[0] == 'contact'){
+else if ($DIR[0] == 'contact') {
     require_once "../routes/contact/contact.route.php";
+}
+
+/**
+ * Register
+ */
+elseif ($DIR[0] == 'register') {
+    require_once "../routes/register/register.route.php";
+}
+
+/**
+ * Login
+ */
+elseif ($DIR[0] == 'login') {
+    require_once "../routes/login/login.route.php";
+}
+
+/**
+ * Store
+ */
+elseif ($DIR[0] == 'store') {
+    require_once "../routes/store/store.route.php";
+}
+
+/**
+ * Services
+ */
+elseif ($DIR[0] == 'services') {
+    require_once "../routes/services/services.route.php";
+}
+
+/**
+ * Portfolio
+ */
+elseif ($DIR[0] == 'portfolio') {
+    require_once "../routes/portfolio/portfolio.route.php";
+}
+
+/**
+ * Blog
+ */
+elseif ($DIR[0] == 'blogs') {
+    require_once "../routes/blogs/blogs.route.php";
 }
 
 /**

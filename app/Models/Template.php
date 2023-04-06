@@ -112,9 +112,8 @@ class Templates
                                             <div class="main-menu f-right d-none d-lg-block">
                                                 <nav>
                                                     <ul id="navigation">
-                                                        <li class="active"><a href="index.html">MiBarberShop</a></li>
+                                                        <li class="active"><a href="'.$this->ROUTE.'">MiBarberShop</a></li>
                                                         <li><a href="' . $this->ROUTE . 'store">Tienda</a></li>
-                                                        <li><a href="' . $this->ROUTE . 'about">Acerca de...</a></li>
                                                         <li><a href="' . $this->ROUTE . 'services">Servicios</a></li>
                                                         <li><a href="' . $this->ROUTE . 'portfolio">Portafolio</a></li>
                                                         <li><a href="' . $this->ROUTE . 'blogs">Blog</a> </li>
@@ -123,7 +122,7 @@ class Templates
                                                 </nav>
                                             </div>
                                             <div class="header-right-btn f-right d-none d-lg-block ml-30">
-                                                <a href="from.html" class="btn header-btn">Vuelvete miembro</a>
+                                                <a href="'.$this->ROUTE.'register" class="btn header-btn">Vuelvete miembro</a>
                                             </div>
                                         </div>
                                     </div>
